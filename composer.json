@@ -1,0 +1,44 @@
+{
+    "name": "vitexspftware/abraflexi-warehouse-tools",
+    "description": "Light, simple and fast, yet comprehensive wrapper for the Pushover API.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "pushover",
+        "pushover.net",
+        "wrapper",
+        "client"
+    ],
+    "authors": [
+        {
+            "name": "Vítězslav Dvořák",
+            "email": "info@vitexsoftware.cz",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/slunak/pushover-php",
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "spojenet/flexibee": "dev-main"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.43",
+        "ergebnis/php-cs-fixer-config": "^6.34",
+        "friendsofphp/php-cs-fixer": "^3.61",
+        "phpstan/phpstan": "^1.11",
+        "phpunit/phpunit": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AbraFlexi\\WareHouse\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
+    }
+}
